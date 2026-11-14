@@ -7806,6 +7806,7 @@ export interface components {
             autoCompactWindow?: "200k" | "1m";
             effort?: string;
             fastMode?: boolean;
+            force?: boolean;
             idempotencyKey?: string;
             message?: components["schemas"]["SendConversationMessageRequest"];
             model?: string;
